@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+
 <html>
 	<head>
 		<title>Miniport by HTML5 UP</title>
@@ -14,7 +14,6 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
-		
 	</head>
 	<body>
 
@@ -108,9 +107,8 @@
 					<div>
 						<div class="row">
 							<div id="contact-form" class="12u">
-								<h3>Drop me a mail at '<i>priynag@gmail.com</i>'</h3>
 
-								<!-- <form id="contact" method="post" action="#">
+								<form id="contact" method="post" action="submit" onsubmit="submitted=true;">
 									<div>
 										<div class="row half">
 											<div class="6u">
@@ -137,10 +135,23 @@
 											</div>
 										</div>
 									</div>
-								</form> -->
+								</form>
 
-							</div>
-						</div>
+			<?php
+
+			if (!isset($_POST["submit"]))
+				{
+				$from = $_POST["email"];
+				$subject = $_POST["subject"];
+				$message = $_POST["message"];
+				$message = wordwrap($message, 70);
+				mail("priynag@gmail.com",$subject,$message,$from);
+				}
+
+			?>
+
+			</div>
+					</div>
 						<div class="row">
 							<div class="12u">
 								<hr />

@@ -37,9 +37,9 @@
 							<header>
 								<h1>Hi. I'm <strong>Priyanka Nag</strong>.</h1>
 							</header>
-				<p>I Am a supporter of FOSS and presently involved with a few Open Source Communities as well like Mozilla and Wikipedia. 
-				<br>I am currently an intern at a start-up called 'PurpleGear Software Pvt. Ltd.'.
-				A developer by professions...a content writer by passion. Technical writings, blogging etc are stuff that I do as hobby. </p>							
+				<p>I Am a supporter of FOSS and presently involved with a few Open Source Communities like Mozilla and Wikipedia. 
+				<br>I am currently an intern at a start-up called <a href="http://www.linkedin.com/company/3536396?trk=prof-0-ovw-curr_pos" target="blank">'PurpleGear Software Pvt. Ltd.'</a>
+				A developer by profession...a content writer by passion. Technical writings, blogging etc are stuff that I do as hobby. </p>							
 						</div>
 
 						<div class="8u">
@@ -48,7 +48,7 @@
 								<h2 class="text-center">My history</h2>
 							</header>
 				<p>I have been India's representative to World Skills London 2011 for the category of Software Solutions for Business. <br>
-				I have been an exchange student from my college to Nanyang Technoligical University for one semester where I have had the opportunity to learn a few interesting subjects like Computer Game Programming, Algorithms etc.
+				I have been an exchange student from my college to Nanyang Technological University for one semester where I have had the opportunity to learn a few interesting subjects like Computer Game Programming, Algorithms etc.
 				<br>I have also received the Chancellor's Gold medal against scoring the highest marks in my graduation. </p>					
 				<a href="#work" class="button button-big">Learn about what I do</a>
 						</div>
